@@ -1,5 +1,7 @@
-ISS Titan grid using povray
+ISS Titan grid using Vapory
 ============================
+
+Create a geographic grid of Titan (Saturn's moon) seen by the ISS camera (WAC or NAC) for a specific geometry.
 
 Usage:
 ```bash
@@ -22,3 +24,9 @@ Output:
 >
 > - The `NAC/WAC` parameter is optinal, `NAC` is selected by default.
 > - The image is centerd on Titan ([512.5,512.5] in pixel frame). You need to shift the image according to the real position of Titan on the sensor.
+
+Requirements:
+--------------
+- [PovRay](http://www.povray.org/)
+- [Vapory](https://pypi.python.org/pypi/Vapory)
+- [Numpy](www.numpy.org/)
