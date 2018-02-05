@@ -25,6 +25,17 @@ Output:
 > - The `NAC/WAC` parameter is optinal, `NAC` is selected by default.
 > - The image is centerd on Titan ([512.5,512.5] in pixel frame). You need to shift the image according to the real position of Titan on the sensor.
 
+
+> **BugFix**
+>
+> The `vapory` package in `pip` is not up-to-date. You need in install it from the source code:
+> ```bash
+> pip uninstall vapory # If previously installed
+> git clone https://github.com/Zulko/vapory.git
+> cd vapory
+> python setup.py install
+>```
+
 Requirements:
 --------------
 - [PovRay](http://www.povray.org/)
